@@ -11,7 +11,7 @@ class App extends Component {
       {
         id: 0,
         text: 'iść do fryzjera',
-        date: '2018-02-14',
+        date: '2019-09-14',
         important: true,
         active: true,
         finishDate: null
@@ -19,7 +19,7 @@ class App extends Component {
       {
         id: 1,
         text: 'zakupy',
-        date: '2018-02-11',
+        date: '2019-08-29',
         important: false,
         active: true,
         finishDate: null
@@ -27,7 +27,7 @@ class App extends Component {
       {
         id: 2,
         text: 'lekarz',
-        date: '2018-02-15',
+        date: '2043-02-15',
         important: true,
         active: true,
         finishDate: null
