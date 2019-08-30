@@ -9,6 +9,7 @@ const TaskList = (props) => {
         task={task} delete={props.delete} change={props.change} />)
     const doneTasks = done.map(task => <Task key={task.id}
         task={task} delete={props.delete} change={props.change} />)
+
     return (
         <>
             <hr />

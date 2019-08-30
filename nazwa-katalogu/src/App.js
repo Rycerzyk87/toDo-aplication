@@ -76,6 +76,7 @@ class App extends Component {
     }))
     return true
   }
+
   render() {
     return (
       <div className="App">
