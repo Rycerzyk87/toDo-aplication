@@ -17,6 +17,7 @@ const TaskList = (props) => {
                 <h2>Do zrobienia(- {active.length} -)</h2>
                 {activeTasks.length > 0 ? activeTasks : <p>BRAK ZADAŃ</p>}
             </div>
+            <div className="line"></div>
             <hr />
             <div className="done">
                 <h2>Zadania wykonane(-{done.length}-)</h2>

@@ -82,6 +82,7 @@ class App extends Component {
       <div className="App">
         <h1>LISTA ZADAŃ DO ZROBIENIA</h1>
         <AddTask add={this.addTask} />
+        <div className="line"></div>
         <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus} />
       </div>
     );

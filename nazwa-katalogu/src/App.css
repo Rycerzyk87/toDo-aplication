@@ -3,8 +3,18 @@
   margin: 0 auto;
   width: 60%;
   text-align: center;
-   background-color: #3d3d5c;
+   background-color: #018945;
   /* background-color:#708090; */
-  color: aliceblue;
+  color: lightslategray;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 1.5px;;
+}
+.line{
+  height: 8px;
+  background-color: aliceblue;
+}
+h1{
+  text-decoration: unset; 
+  line-height: 120%;
 }
 
